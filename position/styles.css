@@ -31,6 +31,17 @@
     top: 500px;
 }
 
+.position-fixed-two div {
+    background-color: grey;
+    border: 1px solid black;
+    width: 200px;
+    margin-bottom: 20px;
+
+    position: fixed;
+    left: 120px;
+    top: 510px;
+}
+
 /* Absolute */
 .absolute-container {
     background-color: grey;
