@@ -1,0 +1,15 @@
+.container {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.wrapper {
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+.inner {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
