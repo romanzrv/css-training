@@ -1,0 +1,63 @@
+/* Static */
+.position-static div {
+    background-color: grey;
+    border: 1px solid black;
+    width: 500px;
+    margin-bottom: 20px;
+
+    position: static;
+}
+
+/* Relative */
+.position-relative div {
+    background-color: grey;
+    border: 1px solid black;
+    width: 500px;
+    margin-bottom: 20px;
+
+    position: relative;
+    left: 50px;
+}
+
+/* Fixed */
+.position-fixed div {
+    background-color: grey;
+    border: 1px solid black;
+    width: 200px;
+    margin-bottom: 20px;
+
+    position: fixed;
+    left: 100px;
+    top: 500px;
+}
+
+/* Absolute */
+.absolute-container {
+    background-color: grey;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+
+    position: relative;
+}
+
+.position-absolute {
+    background-color: grey;
+    border: 1px solid black;
+    width: 100px;
+
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+/* Sticky */
+
+.position-sticky {
+    background-color: grey;
+    border: 1px solid black;
+
+    position: sticky;
+    top: 5px;
+}
